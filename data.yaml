@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Grenade', 'Gun', 'Knife', 'Pistol', 'handgun', 'rifle']
+
+roboflow:
+  workspace: testing-kfsrv
+  project: guns-l4rap
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/testing-kfsrv/guns-l4rap/dataset/2
